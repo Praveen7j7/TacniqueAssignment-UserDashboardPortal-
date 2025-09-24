@@ -1,8 +1,8 @@
-import Header from "../../components/layout/Header"
-import UserSearch from "../../components/users/UserSearch"
-import UserFilters from "../../components/users/UserFilters"
-import UserTable from "../../components/users/UserTable"
-import UserPagination from "../../components/users/UserPagination"
+import Header from "../components/layout/Header"
+import UserSearch from "../components/users/UserSearch"
+import UserFilters from "../components/users/UserFilters"
+import UserTable from "../components/users/UserTable"
+import UserPagination from "../components/users/UserPagination"
 import useUsers from "../../hooks/useUsers"
 
 export default function UserManagement() {
